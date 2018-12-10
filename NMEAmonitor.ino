@@ -36,8 +36,8 @@
 // LCDML TYPE SELECT
 // *********************************************************************
 // settings for lcd 
-#define _LCDML_DISP_cols             16
-#define _LCDML_DISP_rows              2  
+#define _LCDML_DISP_cols             20
+#define _LCDML_DISP_rows              4
 
 #define PAGE_DISPLAY                  3               // each page is displayed 3 sec
 #define INITIAL_BACKLIT             100               // initial backlit value
@@ -52,8 +52,8 @@
 
 #define PAGECOUNT                    13               // number of pages to be displayed
 
-#define PROG_NAME    "N2K Monitor+TX  "
-#define PROG_VER     "19.10.2018 v1.01"
+#define PROG_NAME    "N2K Monitor     "
+#define PROG_VER     "29.11.2018 v1.02"
 #define SHOW_NAME_VER                 4               // show name and version for 4 sec
 
 static int  flag[PAGECOUNT] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
@@ -176,6 +176,8 @@ static double AWA_disp;
 static double AWArel_disp;
 static double AWD_disp;
 
+static int row;
+
 typedef struct
 {
 	unsigned char second; // 0-59
@@ -233,13 +235,21 @@ Stream *OutputStream;
 	OutputStream = &Serial;
 #endif
 
-    NMEA2000.SetForwardStream(&Serial);
+// to use the alternative can0 with Tindie CAN-Bus Adapter, set High speed mode
+	pinMode(28, OUTPUT);
+	digitalWrite(28, LOW);
+
+// to use the can0 with Tindie CAN-Bus Adapter, set High speed mode
+	pinMode(2, OUTPUT);
+	digitalWrite(2, LOW);
+
+	NMEA2000.SetForwardStream(&Serial);
     //NMEA2000.SetForwardType(tNMEA2000::fwdt_Text);             // Show in clear text. Leave commented for default Actisense format.
     NMEA2000.SetForwardOwnMessages();
 
     // If you also want to see all traffic on the bus use N2km_ListenAndNode instead of N2km_NodeOnly below
-    NMEA2000.SetMode(tNMEA2000::N2km_ListenAndNode, 23);       // 23=SRC-Addr on N2K-Bus
-    // NMEA2000.EnableForward(false);                             // Disable all msg forwarding to USB (=Serial)
+    NMEA2000.SetMode(tNMEA2000::N2km_ListenAndNode, 22);         // SRC-Addr on N2K-Bus
+    // NMEA2000.EnableForward(false);                            // Disable all msg forwarding to USB (=Serial)
 	NMEA2000.SetMsgHandler(HandleNMEA2000Msg);
 	NMEA2000.Open();
 
@@ -300,6 +310,12 @@ Stream *OutputStream;
     lcd.print(F(PROG_NAME));  // print first line to lcd display
     lcd.setCursor(0,1);
     lcd.print(F(PROG_VER));  // print second line to lcd display
+	if (_LCDML_DISP_rows == 4) {
+		lcd.setCursor(0, 2);
+		lcd.print(line);  // print third line to lcd display
+		lcd.setCursor(0, 3);
+		lcd.print(line);  // print fourth line to lcd display
+	}
 
     delay(SHOW_NAME_VER*1000);
     

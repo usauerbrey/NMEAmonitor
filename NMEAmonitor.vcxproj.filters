@@ -14,106 +14,61 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{e958cfe1-ac86-4438-a3e4-2fbad375d4ff}</UniqueIdentifier>
+      <UniqueIdentifier>{6f2a295e-14fc-403d-8004-2fdafd195ea9}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly">
-      <UniqueIdentifier>{34ac1fb0-e978-48cb-9003-5d073356acf2}</UniqueIdentifier>
+      <UniqueIdentifier>{d41d4e7a-72c3-41e5-be6c-3c95ae9e873e}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\core">
-      <UniqueIdentifier>{d200053f-3fc0-44f1-9c94-1c9b4d5abca3}</UniqueIdentifier>
+      <UniqueIdentifier>{0ad1110a-ea8f-4266-beaf-3edc04e754bf}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\core\avr">
-      <UniqueIdentifier>{cbf390ed-9de2-4435-8ef2-af9c3a1903a4}</UniqueIdentifier>
+      <UniqueIdentifier>{eb21ce2d-abcc-4345-a7c1-29e0fcce08fb}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\core\util">
-      <UniqueIdentifier>{a4e46643-618b-44fd-8c6b-a9ca614915a9}</UniqueIdentifier>
+      <UniqueIdentifier>{03f357f0-38c6-4f3b-9a4d-6636c7ba8484}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\libraries">
-      <UniqueIdentifier>{e9f127f8-9057-4bc5-8d3b-63d097649418}</UniqueIdentifier>
+      <UniqueIdentifier>{30c66993-944a-42c4-b7ad-8c198497349a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\Adafruit_Sensor-master">
-      <UniqueIdentifier>{2a1e5708-2ef2-4569-ac9e-73a3bb8086aa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library">
-      <UniqueIdentifier>{f7092f61-1314-43bf-ae1c-101b256b9f85}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library\src">
-      <UniqueIdentifier>{b1781e95-df0e-4410-beb5-767a12be6f42}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\DHT-sensor-library">
-      <UniqueIdentifier>{0de89c83-9c36-41ab-bb1c-dbbb576d827c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\EEPROM">
-      <UniqueIdentifier>{300d5aaf-c391-48b8-b8f1-6268d5750db1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\FlexCAN">
-      <UniqueIdentifier>{255b0c39-1643-4411-8b33-0d1c82edeea7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\Keypad">
-      <UniqueIdentifier>{833480ed-feba-4762-8e41-81c6d7f69a35}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\Keypad\utility">
-      <UniqueIdentifier>{7a6333b0-7fce-448c-8b35-0db8c526641a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\LCDMenu">
-      <UniqueIdentifier>{1bbf51d3-aae4-4f02-9ef3-0b40a1ea8ade}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\LCDMenu\extras">
-      <UniqueIdentifier>{775f9372-fdf9-4355-b8b3-5818ff6d806c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\_micro-api-readonly\libraries\LCDMenu\src">
-      <UniqueIdentifier>{34e29fee-dcad-4528-bbb5-794bb047e14c}</UniqueIdentifier>
+    <Filter Include="src\_micro-api-readonly\libraries\LCDMenuLib">
+      <UniqueIdentifier>{63109b07-cde9-47c3-a299-e0e3305cf28b}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\libraries\LiquidCrystal">
-      <UniqueIdentifier>{0481a012-15ed-45a3-b704-e3505fcca020}</UniqueIdentifier>
+      <UniqueIdentifier>{1cf17812-883b-4342-bb25-9d2d95743cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\EEPROM">
+      <UniqueIdentifier>{127201b1-88d7-43cb-b8c0-d0149bb8c2d2}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\libraries\NMEA2000">
-      <UniqueIdentifier>{8cfdd4dd-c03f-4657-8831-d7e68dd0cb7e}</UniqueIdentifier>
+      <UniqueIdentifier>{9dca2a26-88cd-49e8-8626-bab187a91f46}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\libraries\NMEA2000_teensy">
-      <UniqueIdentifier>{79983363-230e-42ad-a7e0-fc698dd686ec}</UniqueIdentifier>
+      <UniqueIdentifier>{5af4fd81-f3c9-4f3d-a599-27a12c400f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\Keypad">
+      <UniqueIdentifier>{889d1ea6-eefc-4692-8ffc-359d8624e2a9}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\libraries\Wire">
-      <UniqueIdentifier>{84b4ebb9-8a12-46a0-9b39-08f6a8f5763d}</UniqueIdentifier>
+      <UniqueIdentifier>{45efb6c6-1140-40f2-b132-d2799ebc23fc}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\_micro-api-readonly\libraries\Wire\utility">
-      <UniqueIdentifier>{e9df34de-f63e-4836-b743-db6e6f893e55}</UniqueIdentifier>
+      <UniqueIdentifier>{9466d75e-118d-48d8-804a-b73629b9768a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\FlexCAN_Library">
+      <UniqueIdentifier>{03b2a3fa-0038-4485-815a-1c48b6a229e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\DHT-sensor-library">
+      <UniqueIdentifier>{4639b8a6-7358-4ece-b3f6-7032ec6c6a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library">
+      <UniqueIdentifier>{dbfb007a-e6b7-413f-af8d-41eb4731493d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\Adafruit_Sensor">
+      <UniqueIdentifier>{927b8da2-0ab9-4824-b3ea-ffb196420144}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\memcpy-armv7m.S">
-      <Filter>src\_micro-api-readonly\core</Filter>
-    </None>
-    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\memset.S">
-      <Filter>src\_micro-api-readonly\core</Filter>
-    </None>
-    <None Include="..\libraries\Adafruit_Sensor-master\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\Adafruit_Sensor-master</Filter>
-    </None>
-    <None Include="..\libraries\BMP180_Breakout_Arduino_Library\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library</Filter>
-    </None>
-    <None Include="..\libraries\DHT-sensor-library\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
-    </None>
-    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
-    </None>
-    <None Include="..\libraries\LCDMenu\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\LCDMenu</Filter>
-    </None>
-    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
-    </None>
-    <None Include="..\libraries\NMEA2000\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </None>
-    <None Include="..\libraries\NMEA2000_teensy\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000_teensy</Filter>
-    </None>
-    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\library.properties">
-      <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
-    </None>
     <None Include="monControl.ino" />
     <None Include="monDisp.ino" />
     <None Include="monFuncDisp.ino" />
@@ -121,6 +76,48 @@
     <None Include="pages.ino" />
     <None Include="pressHumTemp.ino" />
     <None Include="ProcessN2K.ino" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\memcpy-armv7m.S">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\memset.S">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </None>
+    <None Include="..\libraries\LCDMenuLib\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\LCDMenuLib</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
+    </None>
+    <None Include="..\libraries\NMEA2000\library.json">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </None>
+    <None Include="..\libraries\NMEA2000\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </None>
+    <None Include="..\libraries\NMEA2000_teensy\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000_teensy</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
+    </None>
+    <None Include="..\libraries\DHT-sensor-library\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
+    </None>
+    <None Include="..\libraries\DHT-sensor-library\library_BOOTPC_Apr-13-215650-2017_Conflict.properties">
+      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
+    </None>
+    <None Include="..\libraries\BMP180_Breakout_Arduino_Library\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library</Filter>
+    </None>
+    <None Include="..\libraries\Adafruit_Sensor\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\Adafruit_Sensor</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.NMEAmonitor.vsarduino.h">
@@ -171,6 +168,12 @@
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\elapsedMillis.h">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\EventResponder.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\FS.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial.h">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClInclude>
@@ -178,6 +181,9 @@
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\IPAddress.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Keyboard.h">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\keylayouts.h">
@@ -189,10 +195,19 @@
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\math_helper.h">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\MIDIUSB.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\mk20dx128.h">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Mouse.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\new.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\pgmspace.h">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\pins_arduino.h">
@@ -318,44 +333,23 @@
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util\parity.h">
       <Filter>src\_micro-api-readonly\core\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\Adafruit_Sensor-master\Adafruit_Sensor.h">
-      <Filter>src\_micro-api-readonly\libraries\Adafruit_Sensor-master</Filter>
+    <ClInclude Include="..\libraries\LCDMenuLib\src\LCDMenuLib.h">
+      <Filter>src\_micro-api-readonly\libraries\LCDMenuLib</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\BMP180_Breakout_Arduino_Library\src\SFE_BMP180.h">
-      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library\src</Filter>
+    <ClInclude Include="..\libraries\LCDMenuLib\src\LCDMenuLib_makros.h">
+      <Filter>src\_micro-api-readonly\libraries\LCDMenuLib</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\DHT-sensor-library\DHT.h">
-      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libraries\DHT-sensor-library\DHT_U.h">
-      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\EEPROM.h">
-      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\FlexCAN\FlexCAN.h">
-      <Filter>src\_micro-api-readonly\libraries\FlexCAN</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\FlexCAN\kinetis_flexcan.h">
-      <Filter>src\_micro-api-readonly\libraries\FlexCAN</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\Keypad.h">
-      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\utility\Key.h">
-      <Filter>src\_micro-api-readonly\libraries\Keypad\utility</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libraries\LCDMenu\src\LCDMenuLib.h">
-      <Filter>src\_micro-api-readonly\libraries\LCDMenu\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libraries\LCDMenu\src\LCDMenuLib_makros.h">
-      <Filter>src\_micro-api-readonly\libraries\LCDMenu\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libraries\LCDMenu\src\LCDMenuLib_menu.h">
-      <Filter>src\_micro-api-readonly\libraries\LCDMenu\src</Filter>
+    <ClInclude Include="..\libraries\LCDMenuLib\src\LCDMenuLib_menu.h">
+      <Filter>src\_micro-api-readonly\libraries\LCDMenuLib</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\LiquidCrystal.h">
       <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\src\LiquidCrystal.h">
+      <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\EEPROM.h">
+      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
     </ClInclude>
     <ClInclude Include="..\libraries\NMEA2000\ActisenseReader.h">
       <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
@@ -366,32 +360,92 @@
     <ClInclude Include="..\libraries\NMEA2000\N2kDef.h">
       <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\NMEA2000\N2kMessages.h">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libraries\NMEA2000\N2kMessagesEnumToStr.h">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libraries\NMEA2000\N2kMsg.h">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClInclude>
     <ClInclude Include="..\libraries\NMEA2000\N2kStream.h">
       <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
     </ClInclude>
     <ClInclude Include="..\libraries\NMEA2000\NMEA2000.h">
       <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
     </ClInclude>
-    <ClInclude Include="..\libraries\NMEA2000\NMEA2000_CAN.h">
+    <ClInclude Include="..\libraries\NMEA2000\src\ActisenseReader.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kCANMsg.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kDef.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kDeviceList.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kGroupFunction.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kGroupFunctionDefaultHandlers.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kMessages.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kMessagesEnumToStr.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kMsg.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\N2kStream.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\NMEA2000.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\NMEA2000_CAN.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\NMEA2000_CompilerDefns.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\src\Seasmart.h">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\NMEA2000\third-party\catch\catch.hpp">
       <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
     </ClInclude>
     <ClInclude Include="..\libraries\NMEA2000_teensy\NMEA2000_teensy.h">
       <Filter>src\_micro-api-readonly\libraries\NMEA2000_teensy</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\src\Key.h">
+      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\src\Keypad.h">
+      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\Wire.h">
+      <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\WireKinetis.h">
       <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\utility\twi.h">
       <Filter>src\_micro-api-readonly\libraries\Wire\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\FlexCAN_Library\FlexCAN.h">
+      <Filter>src\_micro-api-readonly\libraries\FlexCAN_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\FlexCAN_Library\kinetis_flexcan.h">
+      <Filter>src\_micro-api-readonly\libraries\FlexCAN_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\DHT-sensor-library\DHT.h">
+      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\DHT-sensor-library\DHT_U.h">
+      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\BMP180_Breakout_Arduino_Library\src\SFE_BMP180.h">
+      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Adafruit_Sensor\Adafruit_Sensor.h">
+      <Filter>src\_micro-api-readonly\libraries\Adafruit_Sensor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -402,6 +456,9 @@
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\DMAChannel.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\EventResponder.cpp">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial1.cpp">
@@ -461,8 +518,83 @@
     <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\yield.cpp">
       <Filter>src\_micro-api-readonly\core</Filter>
     </ClCompile>
-    <ClCompile Include="..\libraries\BMP180_Breakout_Arduino_Library\src\SFE_BMP180.cpp">
-      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library\src</Filter>
+    <ClCompile Include="..\libraries\LCDMenuLib\src\LCDMenuLib.cpp">
+      <Filter>src\_micro-api-readonly\libraries\LCDMenuLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\LCDMenuLib\src\LCDMenuLib_menu.cpp">
+      <Filter>src\_micro-api-readonly\libraries\LCDMenuLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\LiquidCrystal.cpp">
+      <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\src\LiquidCrystal.cpp">
+      <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\EEPROM.cpp">
+      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\ActisenseReader.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\N2kStream.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\ActisenseReader.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\N2kDeviceList.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\N2kGroupFunction.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\N2kGroupFunctionDefaultHandlers.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\N2kMessages.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\N2kMsg.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\N2kStream.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\NMEA2000.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\src\Seasmart.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\test\millis.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\test\SeasmartTests.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000\third-party\catch\catch.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\NMEA2000_teensy\NMEA2000_teensy.cpp">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000_teensy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\src\Key.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\src\Keypad.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\Wire.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\WireKinetis.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\utility\twi.c">
+      <Filter>src\_micro-api-readonly\libraries\Wire\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\FlexCAN_Library\FlexCAN.cpp">
+      <Filter>src\_micro-api-readonly\libraries\FlexCAN_Library</Filter>
     </ClCompile>
     <ClCompile Include="..\libraries\DHT-sensor-library\DHT.cpp">
       <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
@@ -470,76 +602,49 @@
     <ClCompile Include="..\libraries\DHT-sensor-library\DHT_U.cpp">
       <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\EEPROM.cpp">
-      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\FlexCAN\FlexCAN.cpp">
-      <Filter>src\_micro-api-readonly\libraries\FlexCAN</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\Keypad.cpp">
-      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\utility\Key.cpp">
-      <Filter>src\_micro-api-readonly\libraries\Keypad\utility</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\LCDMenu\src\LCDMenuLib.cpp">
-      <Filter>src\_micro-api-readonly\libraries\LCDMenu\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\LCDMenu\src\LCDMenuLib_menu.cpp">
-      <Filter>src\_micro-api-readonly\libraries\LCDMenu\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\LiquidCrystal.cpp">
-      <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\NMEA2000\ActisenseReader.cpp">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\NMEA2000\N2kMessages.cpp">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\NMEA2000\N2kMsg.cpp">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\NMEA2000\N2kStream.cpp">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\NMEA2000\NMEA2000.cpp">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libraries\NMEA2000_teensy\NMEA2000_teensy.cpp">
-      <Filter>src\_micro-api-readonly\libraries\NMEA2000_teensy</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\Wire.cpp">
-      <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\utility\twi.c">
-      <Filter>src\_micro-api-readonly\libraries\Wire\utility</Filter>
+    <ClCompile Include="..\libraries\BMP180_Breakout_Arduino_Library\src\SFE_BMP180.cpp">
+      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\libraries\BMP180_Breakout_Arduino_Library\keywords.txt">
-      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library</Filter>
-    </Text>
-    <Text Include="..\libraries\DHT-sensor-library\keywords.txt">
-      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
-    </Text>
-    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\keywords.txt">
-      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
-    </Text>
-    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\FlexCAN\keywords.txt">
-      <Filter>src\_micro-api-readonly\libraries\FlexCAN</Filter>
-    </Text>
-    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\keywords.txt">
-      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
-    </Text>
-    <Text Include="..\libraries\LCDMenu\keywords.txt">
-      <Filter>src\_micro-api-readonly\libraries\LCDMenu</Filter>
+    <Text Include="..\libraries\LCDMenuLib\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\LCDMenuLib</Filter>
     </Text>
     <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\LiquidCrystal\keywords.txt">
       <Filter>src\_micro-api-readonly\libraries\LiquidCrystal</Filter>
     </Text>
+    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\EEPROM\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\EEPROM</Filter>
+    </Text>
+    <Text Include="..\libraries\NMEA2000\CMakeLists.txt">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </Text>
+    <Text Include="..\libraries\NMEA2000\vs-readme.txt">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </Text>
+    <Text Include="..\libraries\NMEA2000\src\CMakeLists.txt">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </Text>
+    <Text Include="..\libraries\NMEA2000\test\CMakeLists.txt">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </Text>
+    <Text Include="..\libraries\NMEA2000\third-party\catch\CMakeLists.txt">
+      <Filter>src\_micro-api-readonly\libraries\NMEA2000</Filter>
+    </Text>
+    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Keypad\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\Keypad</Filter>
+    </Text>
     <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Wire\keywords.txt">
       <Filter>src\_micro-api-readonly\libraries\Wire</Filter>
+    </Text>
+    <Text Include="..\libraries\FlexCAN_Library\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\FlexCAN_Library</Filter>
+    </Text>
+    <Text Include="..\libraries\DHT-sensor-library\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\DHT-sensor-library</Filter>
+    </Text>
+    <Text Include="..\libraries\BMP180_Breakout_Arduino_Library\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\BMP180_Breakout_Arduino_Library</Filter>
     </Text>
   </ItemGroup>
 </Project>

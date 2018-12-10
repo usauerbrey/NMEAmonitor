@@ -359,21 +359,21 @@ static unsigned long ledBuiltinOnOff=0;
   }
 }
 
-void DisplayPosition(char* lat, char* lon);
-void DisplayTimeDate(char* time, char* date);
-void DisplaySogCog(char* SOG, char* COG);
-void DisplayStwHeading(char* stw, char* heading);
-void DisplayBftGwd(char* bft, char* gwd);
-void DisplayTwsTwa(char* tws, char* twa);
-void DisplayAwsAwa(char* aws, char* awa);
-void DisplayWaterDepth(char* waterTemp, char* depth);
-void DisplayAirPress(char* airTemp, char* press);
-void DisplayLogTrip(char* log, char* trip);
-void DisplayBatt(char* batt1, char* batt2);
-void DisplayEngine(char* rpmPort, char* rpmStbd);
-void DisplayPressHum(char* pressure, char* humidity);
+void DisplayPosition(char* lat, char* lon, int row);
+void DisplayTimeDate(char* time, char* date, int row);
+void DisplaySogCog(char* SOG, char* COG, int row);
+void DisplayStwHeading(char* stw, char* heading, int row);
+void DisplayBftGwd(char* bft, char* gwd, int row);
+void DisplayTwsTwa(char* tws, char* twa, int row);
+void DisplayAwsAwa(char* aws, char* awa, int row);
+void DisplayWaterDepth(char* waterTemp, char* depth, int row);
+void DisplayAirPress(char* airTemp, char* press, int row);
+void DisplayLogTrip(char* log, char* trip, int row);
+void DisplayBatt(char* batt1, char* batt2, int row);
+void DisplayEngine(char* rpmPort, char* rpmStbd, int row);
+void DisplayPressHum(char* pressure, char* humidity, int row);
      
-static void (*p[PAGECOUNT]) (char*, char*) {DisplayPressHum, DisplayPosition, DisplayTimeDate, DisplaySogCog, DisplayStwHeading,
+static void (*p[PAGECOUNT]) (char*, char*, int) {DisplayPressHum, DisplayPosition, DisplayTimeDate, DisplaySogCog, DisplayStwHeading,
                                DisplayBftGwd, DisplayTwsTwa, DisplayAwsAwa, DisplayWaterDepth, DisplayAirPress, DisplayLogTrip,
                                DisplayBatt, DisplayEngine};
 
@@ -425,7 +425,7 @@ static int suppressCount;
   }
 
   if (flag[pagedisplayed] == 1){
-    (*p[pagedisplayed]) ((char *)"",(char *)"");      // call the page display function
+    (*p[pagedisplayed]) ((char *)"",(char *)"", 0);      // call the page display function
   }
   else {
     suppressCount=PAGECOUNT;
@@ -440,7 +440,7 @@ static int suppressCount;
       DisplaySuppressed();
     }
     else {
-      (*p[pagedisplayed]) ((char *)"", (char *)"");      // call the page display function
+      (*p[pagedisplayed]) ((char *)"", (char *)"", 0);      // call the page display function
     }
   }
 
