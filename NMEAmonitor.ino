@@ -350,6 +350,7 @@ void loop()
 		ReadPressTemp();
 
 		SetN2kEnvironmentalParameters(N2kMsg, 1, N2kts_OutsideTemperature, CToKelvin(TempAirHum_disp), N2khs_OutsideHumidity, Hum_disp, mBarToPascal(Press_disp));  // N2K: 130311 Environmental Parameters(Cabin Temp, Humidity, Pressure)
+//		SetN2kEnvironmentalParameters(N2kMsg, 1, N2kts_OutsideTemperature, CToKelvin(TempAirPress_disp), N2khs_OutsideHumidity, Hum_disp, mBarToPascal(Press_disp));  // N2K: 130311 Environmental Parameters(Cabin Temp, Humidity, Pressure)
 		NMEA2000.SendMsg(N2kMsg);                                                                                                         // i70: Air-temp, Humidity, Pressure
 	}
 

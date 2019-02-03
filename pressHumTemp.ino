@@ -10,6 +10,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 SFE_BMP180 pressure;
 
+#define ALTITUDE 750.0 // Altitude of Sonthofen in meters
+
 void setupPressHumTemp() {
   dht.begin();
   if (!pressure.begin())
@@ -24,11 +26,11 @@ void ReadHumTemp() {
   double T, H;
 
   H = dht.readHumidity();     //Luftfeuchte auslesen
-  H = H + 30.0;      // Korrektur, humidity zu niedrig
+//  H = H + 30.0;      // Korrektur, humidity zu niedrig
   Hum_disp = H;
 
   T = dht.readTemperature();  //Temperatur auslesen
-  T = T - 2.0;      // Korrektur, temp zu hoch
+//  T = T - 2.0;      // Korrektur, temp zu hoch
   TempAirHum_disp = T;
  
   // Prüfen ob eine gültige Zahl zurückgegeben wird. Wenn NaN (not a number) zurückgegeben wird, dann Fehler ausgeben.
@@ -40,7 +42,7 @@ void ReadHumTemp() {
 
 void ReadPressTemp() {
   char status;
-  double T, P;
+  double T, P, P0;
 
     // If you want sea-level-compensated pressure, as used in weather reports,
     // you will need to know the altitude at which your measurements are taken.
@@ -88,9 +90,11 @@ void ReadPressTemp() {
           status = pressure.getPressure(P,T);
           if (status != 0)
           {
-            T = T - 4.5;      // Korrektur, temp zu hoch, aber für Pressure muss der unkorrigierte wert genommen werden
-			TempAirPress_disp = T;
-			Press_disp = P;
+//            T = T - 4.5;      // Korrektur, temp zu hoch, aber für Pressure muss der unkorrigierte wert genommen werden
+			  P0 = pressure.sealevel(P, ALTITUDE); // we're at 1655 meters (Boulder, CO)
+			  TempAirPress_disp = T;
+//			  Press_disp = P;
+			  Press_disp = P0;
 		  }
           else Serial.println("error retrieving pressure measurement\n");
         }
