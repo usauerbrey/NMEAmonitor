@@ -329,6 +329,8 @@ Stream *OutputStream;
 // *********************************************************************
 #define PressHumTempUpdatePeriod 2000
 static unsigned long PressHumTempUpdated = millis();
+#define EngineUpdatePeriod 2000
+static unsigned long EngineUpdated = millis();
 
 void loop()
   { 
@@ -349,10 +351,89 @@ void loop()
 		ReadHumTemp();
 		ReadPressTemp();
 
-		SetN2kEnvironmentalParameters(N2kMsg, 1, N2kts_OutsideTemperature, CToKelvin(TempAirHum_disp), N2khs_OutsideHumidity, Hum_disp, mBarToPascal(Press_disp));  // N2K: 130311 Environmental Parameters(Cabin Temp, Humidity, Pressure)
+    SetN2kOutsideEnvironmentalParameters(N2kMsg, 1, CToKelvin(TempAirHum_disp), CToKelvin(TempAirHum_disp), mBarToPascal(Press_disp));
+    NMEA2000.SendMsg(N2kMsg);
+//SetN2kOutsideEnvironmentalParameters(tN2kMsg &N2kMsg, unsigned char SID, double WaterTemperature, double OutsideAmbientAirTemperature=N2kDoubleNA, double AtmosphericPressure=N2kDoubleNA)
+    
+    SetN2kEnvironmentalParameters(N2kMsg, 1, N2kts_OutsideTemperature, CToKelvin(TempAirHum_disp), N2khs_OutsideHumidity, Hum_disp, mBarToPascal(Press_disp));  // N2K: 130311 Environmental Parameters(Cabin Temp, Humidity, Pressure)
 //		SetN2kEnvironmentalParameters(N2kMsg, 1, N2kts_OutsideTemperature, CToKelvin(TempAirPress_disp), N2khs_OutsideHumidity, Hum_disp, mBarToPascal(Press_disp));  // N2K: 130311 Environmental Parameters(Cabin Temp, Humidity, Pressure)
 		NMEA2000.SendMsg(N2kMsg);                                                                                                         // i70: Air-temp, Humidity, Pressure
 	}
+
+	if (EngineUpdated + EngineUpdatePeriod < millis()) {
+		EngineUpdated = millis();
+
+		SetN2kPGN127488(N2kMsg, 1 /*unsigned char EngineInstance*/, 1100 /*double EngineSpeed*/,
+			N2kDoubleNA /*double EngineBoostPressure = N2kDoubleNA*/, N2kInt8NA /*int8_t EngineTiltTrim = N2kInt8NA*/);
+		// Engine parameters rapid
+		// Input:
+		//  - EngineInstance        Engine instance.
+		//  - EngineSpeed           RPM (Revolutions Per Minute)
+		//  - EngineBoostPressure   in Pascal
+		//  - EngineTiltTrim        in %
+		NMEA2000.SendMsg(N2kMsg);
+//		trace("PGN: 127488:");
+
+		SetN2kPGN127489(N2kMsg, 1 /*unsigned char EngineInstance*/, N2kDoubleNA /*double EngineOilPress*/, 373 /*double EngineOilTemp*/,
+			300 /*double EngineCoolantTemp*/, 13.6 /*double AltenatorVoltage*/,
+			4 /*double FuelRate*/, 1300 /*double EngineHours*/, N2kDoubleNA /*double EngineCoolantPress=N2kDoubleNA*/,
+			N2kDoubleNA /*double EngineFuelPress=N2kDoubleNA*/,
+			N2kInt8NA /*int8_t EngineLoad=N2kInt8NA*/, N2kInt8NA /*int8_t EngineTorque=N2kInt8NA*/,
+			true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+			false, false, false, false, false, false, false, false);
+		// Engine parameters dynamic
+		// Input:
+		//  - EngineInstance        Engine instance.
+		//  - EngineOilPress        in Pascal
+		//  - EngineOilTemp         in Kelvin
+		//  - EngineCoolantTemp     in Kelvin
+		//  - AltenatorVoltage      in Voltage
+		//  - FuelRate              in litres/hour
+		//  - EngineHours           in seconds
+		//  - EngineCoolantPress    in Pascal
+		//  - EngineFuelPress       in Pascal
+		//  - EngineLoad            in %
+		//  - EngineTorque          in %
+		//  - flagCheckEngine
+		//  - flagOverTemp
+		//  - flagLowOilPress
+		//  - flagLowOilLevel
+		//  - flagLowFuelPress
+		//  - flagLowSystemVoltage
+		//  - flagLowCoolantLevel
+		//  - flagWaterFlow
+		//  - flagWaterInFuel
+		//  - flagChargeIndicator
+		//  - flagPreheatIndicator
+		//  - flagHighBoostPress
+		//  - flagRevLimitExceeded
+		//  - flagEgrSystem
+		//  - flagTPS
+		//  - flagEmergencyStopMode
+		//  - flagWarning1
+		//  - flagWarning2
+		//  - flagPowerReduction
+		//  - flagMaintenanceNeeded
+		//  - flagEngineCommError
+		//  - flagSubThrottle
+		//  - flagNeutralStartProtect
+		//  - flagEngineShuttingDown
+		NMEA2000.SendMsg(N2kMsg);
+//		trace("PGN: 127489:");
+
+		SetN2kPGN127493(N2kMsg, 1 /*unsigned char EngineInstance*/, N2kTG_Forward /*tN2kTransmissionGear TransmissionGear*/,
+			200 /*double OilPressure*/, 300 /*double OilTemperature*/, 0 /*unsigned char DiscreteStatus1=0*/);
+		// Transmission parameters, dynamic
+		// Input:
+		//  - EngineInstance        Engine instance.
+		//  - TransmissionGear      Selected transmission. See tN2kTransmissionGear
+		//  - OilPressure           in Pascal
+		//  - OilTemperature        in K
+		//  - EngineTiltTrim        in %
+		NMEA2000.SendMsg(N2kMsg);
+//		trace("PGN: 127493:");
+	}
+
 
     NMEA2000.ParseMessages();
 

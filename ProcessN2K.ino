@@ -701,9 +701,10 @@ void DCStatus(const tN2kMsg &N2kMsg) {
 	unsigned char StateOfCharge;
 	unsigned char StateOfHealth;
 	double TimeRemaining;
-	double RippleVoltage;
+  double RippleVoltage;
+  double Capacity;
 
-	if (ParseN2kDCStatus(N2kMsg, SID, DCInstance, DCType, StateOfCharge, StateOfHealth, TimeRemaining, RippleVoltage)) {
+	if (ParseN2kDCStatus(N2kMsg, SID, DCInstance, DCType, StateOfCharge, StateOfHealth, TimeRemaining, RippleVoltage, Capacity)) {
 #if USE_SERIAL == 1
 		Serial.print("DC instance: ");
 		Serial.println(DCInstance);
@@ -712,6 +713,7 @@ void DCStatus(const tN2kMsg &N2kMsg) {
 		Serial.print("  - state of health (%): "); Serial.println(StateOfHealth);
 		Serial.print("  - time remaining (h): "); Serial.println(TimeRemaining / 60);
 		Serial.print("  - ripple voltage: "); Serial.println(RippleVoltage);
+    Serial.print("  - capacity: "); Serial.println(Capacity);
 #endif
 	}
 	else {
